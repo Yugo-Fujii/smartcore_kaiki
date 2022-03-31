@@ -4,6 +4,7 @@ use smartcore::linear::logistic_regression::LogisticRegression;
 use smartcore::model_selection::train_test_split;
 use smartcore::metrics::accuracy;
 
+// rustはラスト
 fn main() {
     let iris_data = iris::load_dataset();
     let x = DenseMatrix::from_array(
